@@ -64,22 +64,8 @@ The dependencies include:
 
 ## Usage
 
-1. **Data Cleaning**:  
-   Run `scripts/data_cleaning.py` to load the raw data, handle missing values, remove outliers, and encode categorical variables.
-
-   ```python
-   # Example command to run data cleaning
-   python scripts/data_cleaning.py
-   ```
-
-2. **Exploratory Data Analysis (EDA)**:  
-   Open `notebooks/Beats_Analysis.ipynb` in Jupyter Notebook or Google Colab to explore the data through visualizations, descriptive statistics, and correlation analysis.
-
-3. **Sentiment Analysis**:  
-   Use `scripts/sentiment_analysis.py` or the EDA notebook to perform sentiment analysis using TextBlob. This script classifies reviews into positive, neutral, and negative categories.
-
-4. **AI-Generated Insights**:  
-   In `notebooks/Beats_Analysis.ipynb`, use Gemini AI to generate additional insights on customer expectations, standout features, and areas for improvement.
+1. **AI-Generated Insights**:  
+   In `PROJECT4(BEATS).ipynb`, use Gemini AI to generate additional insights on customer expectations, standout features, and areas for improvement.
 
 ---
 
