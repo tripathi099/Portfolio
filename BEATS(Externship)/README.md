@@ -64,8 +64,12 @@ The dependencies include:
 
 ## Usage
 
-1. **AI-Generated Insights**:  
-   In `PROJECT4(BEATS).ipynb`, use Gemini AI to generate additional insights on customer expectations, standout features, and areas for improvement.
+1. **Optional Gemini configuration**:
+   - Copy `.env.example` to `.env`.
+   - Set `GEMINI_API_KEY` in `.env` or export it in your shell.
+   - Never place an API key directly in a notebook or commit `.env`.
+2. **AI-Generated Insights**:
+   In `PROJECT4(BEATS).ipynb`, use Gemini AI to generate additional insights on customer expectations, standout features, and areas for improvement. The notebook reads `GEMINI_API_KEY` from the environment.
 
 ---
 
